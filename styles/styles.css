@@ -15,6 +15,12 @@ body{
 
 }
 
+a:visited{
+
+    text-decoration: none;
+    color: white;
+}
+
 .logo{
 
     font-weight: bold;
@@ -22,7 +28,7 @@ body{
 
 }
 
-.logo, li, .intro {
+.logo, li, .intro, .Project-info {
 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
@@ -93,7 +99,41 @@ p {
     font-weight: bolder; 
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
+
+.Projects {
+
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
+
+}
+
+.Project1, .Project2, .Project3, .Project4 {
+
+    display: block;
+    width: 320px;
+    height: 320px;
+
+}
+
+.Project-image {
+    height: 200px;
+    border: 6px solid #3882f6;
+    margin: 8px;
+    border-radius: 8px;
+
+}
+
+.Project-info {
+
+    text-align: center;
+    color: #1F2937;
+}
+
+
 
 
 
